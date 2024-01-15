@@ -1,0 +1,13 @@
+body{
+    font-family: system-ui;
+    background: withe;
+    color:blu;
+    text-align: center;
+  }
+  .foglie {
+    background-color: #ADD8E6;
+    color: blu;
+    border: 1px;
+    border: 1px blu;
+  }
+  
