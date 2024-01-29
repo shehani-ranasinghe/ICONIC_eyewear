@@ -23,7 +23,7 @@ body{
 
 .introduzione, .text-section, .image-table {
     margin: 10px; 
-    height: 60px;
+    height: 80px;
     background-color: #003300; 
     color: #fff;
 }
