@@ -22,6 +22,8 @@ OBIETTIVO DEL PROGETTO: realizzare un sito web di un brand (I-CONIC) che produce
 
 **• footer per i contatti e i profili social**
 
-SITI UTILIZZATI PER LA REALIZZAZIONE:
-• codepen.io
-• chat Gpt
+**SITI UTILIZZATI PER LA REALIZZAZIONE:**
+
+**• codepen.io**
+
+**• chat Gpt**
