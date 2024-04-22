@@ -1,15 +1,14 @@
 body{
   font-family:system-ui;
   background:withe;
-  color:bleck;
+  color:black;
   text-align:center;
 }
 
 
- 
 }
 .navbar img {
-    height: 40px; /* Imposta l'altezza dell'immagine nella navbar */
+    height: 40px;
 }
 
 
@@ -20,18 +19,17 @@ body{
   }
 
 
-
 .introduzione, .text-section, .image-table {
     margin: 10px; 
     height: 80px;
-    background-color: #003300; 
+    background-color: #87CEFA; 
     color: #fff;
 }
 
 
 footer {
-    background-color: #000000; 
-    color: white;     
+    background-color: #B0E0E6; 
+    color: black;     
     text-align: center;
     padding: 20px 0; 
 }
@@ -54,7 +52,7 @@ footer {
     margin: 0; 
     line-height: 1.6;     
     text-decoration: none; 
-    color: white; 
+    color: black; 
 }
 
 .footer-bottom {
@@ -66,3 +64,4 @@ footer {
     .footer-content {
         flex-direction: column; 
 }
+
