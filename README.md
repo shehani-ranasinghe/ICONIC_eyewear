@@ -1,7 +1,5 @@
 ACME Novara
-
 Anno Accademico: 2023-2024
-
 Studente: Shehani Ranasinghe
 
 Matricola: 944
