@@ -83,7 +83,7 @@ nav ul li a:hover {
 /* forma sezioni sotto larghezza */
 main, .introduzione, section {
     margin: 20px auto;
-    max-width: 900px;
+    max-width: 8000px;
 }
 
 /* forma sezioni sotto altezza */
