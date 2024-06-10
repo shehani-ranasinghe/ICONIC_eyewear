@@ -21,7 +21,8 @@ img:hover {
 
 /* posizione immagine logo */
 #logo {
-  margin-right: center;
+  height: 100px;
+  width: 100px;
 }
 
 /* Barra di ricerca */
@@ -195,7 +196,7 @@ footer {
 /* Mappa */
 .map-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 20.25%;
   height: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -224,7 +225,7 @@ footer {
 
 .form-group {
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .form-group label {
@@ -269,7 +270,7 @@ footer {
   .menu {
     display: none;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
   }
 
   .menu li {
@@ -312,7 +313,7 @@ footer {
 
   .menu li a {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .form-container {
