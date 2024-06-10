@@ -29,4 +29,4 @@ Si tratta di un sito web che realizza occhiali che produce occhiali per accompag
 
 • chat Gpt
 
-• Netlifly
+• Netlify
