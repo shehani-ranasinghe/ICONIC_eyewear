@@ -23,6 +23,8 @@ img:hover {
 #logo {
   height: 100px;
   width: 100px;
+  float: left;
+  margin-left: 20px;
 }
 
 /* Barra di ricerca */
@@ -191,8 +193,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-
-
 /* Mappa */
 .map-container {
   position: relative;
@@ -212,12 +212,11 @@ footer {
   border-radius: 10px;
 }
 
-
 /* Form */
 .form-container {
   max-width: 700px;
   margin: 20px auto;
-  background-color: rgb(140, 129, 138);
+  background-color: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -239,7 +238,7 @@ footer {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 2px solid grey;
+  border: 2px solid black;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -264,9 +263,8 @@ footer {
   color: white;
 }
 
-
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .menu {
     display: none;
     flex-direction: column;
@@ -277,28 +275,11 @@ footer {
     margin: 10px 0;
   }
 
-  .search-container {
-    margin-right: 0;
-  }
-
   .menu-toggle {
     display: block;
     font-size: 24px;
     color: white;
     cursor: pointer;
-  }
-
-  .container {
-    justify-content: space-between;
-  }
-
-  .prodotto {
-    width: calc(33.33% - 20px);
-    margin: 10px;
-  }
-
-  .search-container {
-    text-align: right;
   }
 }
 
@@ -320,4 +301,3 @@ footer {
     padding: 10px;
   }
 }
-
