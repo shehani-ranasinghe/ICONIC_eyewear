@@ -1,121 +1,169 @@
-body{
-  font-family: system-ui;
-    background: #white;
-    color: black; /* Utilizza un colore di testo leggibile */
-    text-align: center;
-    margin: 0; /* Rimuove i margini predefiniti */
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+  text-align: center;
+  margin: 2px;
 }
+
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Bordo arrotondato */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 img:hover {
-    transform: scale(1.05); /* Effetto di ingrandimento al passaggio del mouse */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombra più grande */
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* barra menù */
-header {
-    background-color: black;
-    padding: 1em 0;
-    text-align: center;
-   font-size: 24px; 
-  color: white;
-}
-
+/* posizione immagine logo */
 #logo {
-    margin-left: 0px;
+  margin-right: center;
 }
 
-/* barra ricerca */
+/* Barra di ricerca */
 .search-container {
-    margin-right: 0px;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.search-form {
+  display: inline-block;
 }
 
 .search-form input {
-    padding: 8px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    font-size: 19px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 19px;
 }
 
-/* tasto ricerca e invio form */
-.search, form button {
-    padding: 9px;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    outline: none;
-    background-color: black;
-    color: white;
-    font-size: 19px;
-    cursor: pointer;
+.search-form button {
+  padding: 9px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
 }
 
 .search-form button:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
-/* barra menù */
-nav ul li {
-    display: inline;
-    margin: 0 5px;
-}
-/* barra menù */
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 13px 70px;
-    transition: background-color 0.8s ease;
+/* Barra menu */
+header {
+  background-color: black;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
 }
 
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 88px;
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu li {
+  margin: 0 0px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 13px 72px;
+  border-radius: 20px;
+}
+
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
   color: black;
+  transform: scale(1.1);
 }
 
-
-/* forma sezioni sotto larghezza */
+/* Sezioni */
 main, .introduzione, section {
-    margin: 20px auto;
-    max-width: 8000px;
+  margin: 10px auto;
+  max-width: 100%;
 }
 
-/* forma sezioni sotto altezza */
 section {
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
-  margin: 20px auto; /* Centra la sezione */
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: white;
 }
 
+section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.introduzione {
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.introduzione h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.introduzione p {
+  font-size: 24px;
+  margin: 10px 0 20px;
+}
 
 footer {
-    background-color: #957;
-    color: black;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  border-radius: 20px;
 }
 
+.footer-bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 
-/* sezione occhiali */
+/* Sezione occhiali */
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
 .prodotto {
-  width: 200px;
+  width: calc(33.33% - 40px);
   text-align: center;
   margin: 20px;
 }
@@ -141,3 +189,134 @@ footer {
 .prodotto:hover .dettagli {
   background-color: rgba(255, 255, 255, 0.95);
 }
+
+
+
+/* Mappa */
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+
+
+/* Form */
+.form-container {
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: rgb(140, 129, 138);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: grey;
+  color: white;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .search-container {
+    margin-right: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .container {
+    justify-content: space-between;
+  }
+
+  .prodotto {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+
+  .search-container {
+    text-align: right;
+  }
+}
+
+@media (max-width: 480px) {
+  header, section, .introduzione, footer {
+    padding: 10px;
+  }
+
+  .search-form input, .search-form button {
+    font-size: 16px;
+  }
+
+  .menu li a {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+}
+
