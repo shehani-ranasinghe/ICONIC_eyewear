@@ -1,4 +1,4 @@
-PROGETTO SITO WEB: ICONIC EYEWEAR
+**PROGETTO SITO WEB: ICONIC EYEWEAR**
 •ACME Novara
 
 •Anno Accademico: 2023-2024
@@ -16,14 +16,16 @@ Si tratta di un sito web che realizza occhiali che produce occhiali per accompag
 
 **ELEMENTI PRINCIPALI DELLA PAGINA:**
 
-**• Nome**
+• Nome
 
-**• Descrizione**
+• Descrizione
 
-**• footer per i contatti e i profili social**
+• footer per i contatti e i profili social
 
 **SITI UTILIZZATI PER LA REALIZZAZIONE:**
 
-**• codepen.io**
+• codepen.io
 
-**• chat Gpt**
+• chat Gpt
+
+• Netlifly
