@@ -21,7 +21,11 @@ Si tratta di un sito web che realizza occhiali che produce occhiali per accompag
 
 • Descrizione
 
-• footer per i contatti e i profili social
+• Barra menù
+
+• Sezione form 
+
+• Footer e i contatti 
 
 **SITI UTILIZZATI PER LA REALIZZAZIONE:**
 
