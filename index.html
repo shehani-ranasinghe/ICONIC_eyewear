@@ -16,24 +16,26 @@
             <button type="submit"><i class="fas fa-search"></i></button>
         </form>
     </div>
-
   
-  <!-- Logo -->
+  
+  
+  
+    <!-- Logo -->
     <img id="logo" src="img/ic1 copia.png">
- 
   
-  
-  
+
     <!-- Titolo -->
     <div class="introduzione">
         <h1>ICONIC EYEWEAR</h1>
         <p>BE ICONIC</p>
     </div>
- 
 
-    <!-- Barra menu -->
+  
+  
+   <!-- barra menù -->
     <header>
         <nav>
+           
             <div class="menu-toggle" id="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -45,9 +47,13 @@
             </ul>
         </nav>
     </header>
-
+  
+  
+  
+  
+  
     <!-- Immagine di gruppo -->
-    <img src="img/gruppo.jpg" usemap="#workmap" width="1090" height="900">
+    <img src="img/gruppo.jpg" usemap="#workmap" width="1090" height="900" >
 
     <!-- Sezione Chi siamo -->
     <section id="chisiamo">
@@ -93,12 +99,9 @@
 
     <!-- Sezione Dove trovarci -->
     <section id="dovetrovarci">
-    <h2>Dove trovarci</h2>
-  <p>Via Sette, Roma,00137</p>
-     
-      
-        
-      <div class="map-container">
+        <h2>Dove trovarci</h2>
+        <p>Via Sette, Roma,00137</p>
+        <div class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29904.45214336651!2d12.3711888!3d41.9099533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRoma%20RM%2C%20Italia!5e0!3m2!1sit!2sit!4v1654850933842!5m2!1sit!2sit" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
@@ -124,30 +127,39 @@
             </div>
         </div>
     </section>
-  
-  
-      <!-- Sezione Contattaci -->
- 
 
-      <section id="Contattaci">
+    <!-- Sezione Contattaci -->
+    <section id="Contattaci">
         <div class="center-text">
-        <h2>Contattaci</h2>
-        <p>Email: iconic.eyewear@gmail.com</p>
- <p>Telefono: (0321) 707-777</p>
-        <p>Instagram</p>
-        <p>TikTok</p>
-        <p>Twitter</p>
-        
-      </section>
-        
+            <h2>Contattaci</h2>
+            <p>Email: iconic.eyewear@gmail.com</p>
+            <p>Telefono: (0321) 707-777</p>
+            <p>Instagram</p>
+            <p>TikTok</p>
+            <p>Twitter</p>
+        </div>
+    </section>
 
-          
-          
-     <!-- Footer -->
-  </footer>
+    <!-- Footer -->
+    <footer>
         <p>&copy; ICONIC EYEWEAR 2024 | Tutti i diritti riservati</p>
-      </div>
-      </footer>
-    </body>
+    </footer>
 
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        window.addEventListener('resize', function() {
+            var menu = document.getElementById('menu');
+            if (window.innerWidth > 780) {
+                menu.style.display = 'flex';
+            } else {
+                menu.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
 </html>
