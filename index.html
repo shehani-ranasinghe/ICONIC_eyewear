@@ -55,10 +55,10 @@
     </header>
   
   <!-- immagine1 --> 
-  <img class="responsive-image" src="img/immagine1.png" usemap="#workmap" alt="Immagine1">
-  
+  <img class="responsive-image" src="img/immagine1.png" usemap="#workmap" alt="Immagine1"> 
 <map name="workmap">
-
+  </map>
+  
     <!-- Sezione Chi siamo -->
     <section id="chisiamo">
         <h2>Chi siamo</h2>
@@ -168,11 +168,22 @@ Descrizione: Eleganti e alla moda, perfetti per la vita urbana.</p>
 
         window.addEventListener('resize', function() {
             var menu = document.getElementById('menu');
-            if (window.innerWidth > 780) {
+            if (window.innerWidth > 768) {
                 menu.style.display = 'flex';
             } else {
                 menu.style.display = 'none';
             }
+        });
+
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
         });
     </script>
 
