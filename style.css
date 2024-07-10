@@ -104,6 +104,14 @@ header {
   transform: scale(1.1);
 }
 
+/* Stile per rendere l'immagine1 responsive */
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Sezioni */
 main, .introduzione, section {
   margin: 10px auto;
