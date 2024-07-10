@@ -106,7 +106,7 @@ header {
 
 /* Stile per rendere l'immagine1 responsive */
 .responsive-image {
-    width: 1190px;
+    width: 1000px;
     height: 400px;
     display: block;
     margin: 0 auto;
