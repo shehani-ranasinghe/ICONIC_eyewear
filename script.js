@@ -1,24 +1,15 @@
 let currentIndex = 0;
-
 const slider = document.querySelector('.slider');
 const images = document.querySelectorAll('.slider img');
 const totalImages = images.length;
 
 document.querySelector('.next-handle').addEventListener('click', () => {
-    if (currentIndex < totalImages - 1) {
-        currentIndex++;
-    } else {
-        currentIndex = 0;
-    }
+    currentIndex = (currentIndex + 1) % totalImages;
     updateSlider();
 });
 
 document.querySelector('.prev-handle').addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-    } else {
-        currentIndex = totalImages - 1;
-    }
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
     updateSlider();
 });
 
@@ -26,4 +17,3 @@ function updateSlider() {
     const offset = -currentIndex * 100;
     slider.style.transform = `translateX(${offset}%)`;
 }
-
