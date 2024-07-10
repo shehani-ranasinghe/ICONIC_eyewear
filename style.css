@@ -176,7 +176,7 @@ section p {
 /* titolo */
 .introduzione {
   background-color: white;
-  color: #333;
+  color: black;
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
