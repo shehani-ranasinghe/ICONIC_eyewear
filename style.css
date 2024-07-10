@@ -211,6 +211,17 @@ footer {
 
 
 /* Mappa */
+#dovetrovarci {
+    padding: 20px;
+    background-color: transparent; /* sfondo trasparente */
+    box-shadow: none; /* rimuove ombre */
+}
+
+.map-container iframe {
+    border: 0; /* Assicurati che non ci siano bordi sull'iframe della mappa */
+}
+
+
 .map-container {
   position: relative;
   padding-bottom: 28.25%;
