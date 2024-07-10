@@ -1,11 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
-  background: white;
-  color: black;
+  font-family: Montserrat;
+  background: #bdcebe;;
+  color: #333;
   text-align: center;
   margin: 2px;
 }
 
+/* immagine logo */
 img {
   max-width: 100%;
   height: auto;
@@ -27,40 +28,45 @@ img:hover {
 
 /* Barra di ricerca */
 .search-container {
-  margin-right: 50px;
-  text-align: right;
+   display: flex;
+   justify-content: right;
+    padding: 10px;
 }
 
 .search-form {
-  display: inline-block;
+  display: flex;
+    width: 100%;
+    max-width: 500px;
 }
 
 .search-form input {
-  padding: 8px;
-  border: none;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  font-size: 19px;
+   width: 80%;
+  padding: 9px;
+  border: 1px solid #ccc;;
+  border-radius: 4px 0 0 4px;
+
 }
 
 .search-form button {
+  width: 20%;
   padding: 9px;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  outline: none;
-  background-color: black;
-  color: white;
-  font-size: 19px;
+  border: 1px solid #587e76;
+  border-radius: 0 4px 4px 0;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
   cursor: pointer;
 }
 
 .search-form button:hover {
-  background-color: #555;
+  background-color: #587e76;
 }
+
+
 
 /* Barra menu */
 header {
-  background-color: black;
+  background-color: ;
   padding: 1em 0;
   text-align: center;
   font-size: 24px;
@@ -86,15 +92,15 @@ header {
 }
 
 .menu li a {
-  color: white;
+  color: #333;
   text-decoration: none;
-  padding: 13px 72px;
+  padding: 13px 52px;
   border-radius: 20px;
 }
 
 .menu li a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: black;
+  color: #3e6753;
+  background-color: rgba(255, 255, 255, 0.2);
   transform: scale(1.1);
 }
 
@@ -105,12 +111,12 @@ main, .introduzione, section {
 }
 
 section {
-  background-color: black;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: left;
-  color: white;
+  color: #333;
 }
 
 section h2 {
@@ -120,16 +126,63 @@ section h2 {
 
 section p {
   font-size: 18px;
-  margin: 5px 0;
+  margin: 5px 0;}
+
+/* stile sezione occhiali */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 20px;
 }
 
+.prodotto {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prodotto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.prodotto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.dettagli {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dettagli h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.dettagli p {
+    margin: 5px 0;
+}
+
+
+/* titolo */
 .introduzione {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #333;
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  /* Sfondo titolo */
+   background: url("img/sfondo.jpg") no-repeat center center/cover; 
 }
 
 .introduzione h1 {
@@ -143,7 +196,7 @@ section p {
 }
 
 footer {
-  background-color: black;
+  background-color: #333;
   color: white;
   padding: 10px 0;
   border-radius: 20px;
@@ -155,49 +208,14 @@ footer {
   bottom: 0;
 }
 
-/* Sezione occhiali */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.prodotto {
-  width: calc(33.33% - 40px);
-  text-align: center;
-  margin: 20px;
-}
-
-.prodotto img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.prodotto:hover img {
-  transform: scale(1.1);
-}
-
-.dettagli {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
-}
-
-.prodotto:hover .dettagli {
-  background-color: rgba(255, 255, 255, 0.95);
-}
 
 /* Mappa */
 .map-container {
   position: relative;
-  padding-bottom: 20.25%;
+  padding-bottom: 28.25%;
   height: 0;
   overflow: hidden;
-  border-radius: 10px;
 }
 
 .map-container iframe {
@@ -207,7 +225,6 @@ footer {
   width: 100%;
   height: 100%;
   border: 0;
-  border-radius: 10px;
 }
 
 /* Form */
@@ -236,7 +253,7 @@ footer {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid #333;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -246,9 +263,9 @@ footer {
 }
 
 .form-group input[type="submit"] {
-  background-color: black;
+  background-color: #333;
   color: white;
-  border: 2px solid black;
+  border: 0px solid #333;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -257,7 +274,7 @@ footer {
 }
 
 .form-group input[type="submit"]:hover {
-  background-color: grey;
+  background-color: #587e76;
   color: white;
 }
 
@@ -282,7 +299,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  header, section, .introduzione, footer {
+  header, section, .introduzione {
     padding: 10px;
   }
 
@@ -298,4 +315,47 @@ footer {
   .form-container {
     padding: 10px;
   }
+}
+
+
+
+/* Sezione Contattaci e Footer */
+#Contattaci {
+    padding: 0px;
+    background-color: white;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.contact-info div {
+    width: 40%;
+    margin: 20px 60px;
+}
+
+.contact-info h2 {
+    text-align: left;
+}
+
+.contact-info p, .contact-info a {
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: left;
+    padding: 10px 40px;
+    background-color: #333;
+    color: white;
+  border-radius: 10px;
 }
