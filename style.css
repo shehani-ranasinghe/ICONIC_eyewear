@@ -11,13 +11,6 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* posizione immagine logo */
@@ -63,8 +56,6 @@ img:hover {
   background-color: #587e76;
 }
 
-
-
 /* Barra menu */
 header {
   background-color: ;
@@ -105,7 +96,7 @@ header {
   transform: scale(1.1);
 }
 
-/* Stile per rendere l'immagine1 responsive */
+/* Stile per rendere l'immagine 1 responsive */
 .responsive-image {
     width: 1000px;
     height: 400px;
@@ -135,7 +126,8 @@ section h2 {
 
 section p {
   font-size: 18px;
-  margin: 5px 0;}
+  margin: 5px 0;
+}
 
 /* stile sezione occhiali */
 .container {
@@ -154,16 +146,10 @@ section p {
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.prodotto:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .prodotto img {
-  height: 400px;
+   height: 400px;
     width: 300px;
     border-radius: 10px;
 }
@@ -181,7 +167,6 @@ section p {
 .dettagli p {
     margin: 5px 0;
 }
-
 
 /* titolo */
 .introduzione {
@@ -218,8 +203,6 @@ footer {
   bottom: 0;
 }
 
-
-
 /* Mappa */
 #dovetrovarci {
     padding: 20px;
@@ -230,7 +213,6 @@ footer {
 .map-container iframe {
     border: 0; /* Assicurati che non ci siano bordi sull'iframe della mappa */
 }
-
 
 .map-container {
   position: relative;
@@ -338,8 +320,6 @@ footer {
   }
 }
 
-
-
 /* Sezione Contattaci e Footer */
 #Contattaci {
     padding: 0px;
@@ -378,5 +358,5 @@ footer {
     padding: 10px 40px;
     background-color: #333;
     color: white;
-  border-radius: 10px;
+    border-radius: 10px;
 }
