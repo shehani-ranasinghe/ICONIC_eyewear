@@ -21,7 +21,9 @@ ICONIC è un marchio di occhiali che ti accompagna in ogni momento della tua vit
 **ELEMENTI PRINCIPALI DELLA PAGINA:**
 
 • Logo
+
 • Nome
+
 • Barra di ricerca
 
 • Barra menù
