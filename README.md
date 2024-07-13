@@ -13,24 +13,31 @@
 •Docente: Matteo Baccan
 
 INFO SITO WEB: I-CONIC EYEWEAR:
-Si tratta di un sito web che realizza occhiali che produce occhiali per accompagnare il consumatore in ogni suo stile di vita. Il nome del brand è ICONIC. 
+Si tratta di un sito web responsive che promuove occhiali da sole per accompagnare il consumatore in ogni suo stile di vita. Il nome del brand è ICONIC.
+
+**Chi siamo**
+ICONIC è un marchio di occhiali che ti accompagna in ogni momento della tua vita con stile e praticità. Con una vasta gamma di design alla moda e di alta qualità, i nostri occhiali sono progettati per adattarsi perfettamente a ogni occasione, sia che tu stia lavorando o rilassandoti con gli amici. Con Iconic, aggiungi un tocco di eleganza al tuo look ed esprimi la tua personalità in modo unico.
 
 **ELEMENTI PRINCIPALI DELLA PAGINA:**
 
+• Logo
 • Nome
-
-• Descrizione
+• Barra di ricerca
 
 • Barra menù
 
-• Sezione form 
+• Dove trovarci con coordinate di Google Maps
 
-• Footer e i contatti 
+• Sezione form per lasciare i propri dati
+
+• Footer e i contatti con i link dei social/diritti riservati
 
 **SITI UTILIZZATI PER LA REALIZZAZIONE:**
 
-• codepen.io
+• Codepen.io
 
-• chat Gpt
+• Github
+
+• Chat Gpt
 
 • Netlify
