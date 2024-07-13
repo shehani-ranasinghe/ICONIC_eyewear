@@ -12,7 +12,7 @@
 
 •Docente: Matteo Baccan
 
-INFO SITO WEB: 
+**INFO SITO WEB:** 
 
 I-CONIC EYEWEAR
 Si tratta di un sito web responsive che promuove occhiali da sole per accompagnare il consumatore in ogni suo stile di vita. Il nome del brand è ICONIC.
